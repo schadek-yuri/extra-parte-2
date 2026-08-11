@@ -1,0 +1,33 @@
+/* Adicione estas linhas ao final do seu arquivo style.css */
+
+.titulo-capa {
+    font-size: 2.2rem;
+    color: #f1fa8c; /* Cor de destaque amarelada/dourada para o título */
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.subtitulo-capa {
+    font-size: 1.1rem;
+    color: #a9a9b2;
+    margin-bottom: 2.5rem;
+    font-style: italic;
+}
+
+.btn-iniciar {
+    background-color: #ff5555; /* Botão iniciar vermelho/destacado */
+    font-size: 1.2rem;
+    padding: 1rem;
+    animation: pulsar 2s infinite; /* Efeito visual para chamar atenção */
+}
+
+.btn-iniciar:hover {
+    background-color: #ff6e6e;
+}
+
+/* Animação para o botão de início ficar pulsando levemente */
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
